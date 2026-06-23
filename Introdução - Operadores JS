@@ -1,0 +1,84 @@
+console.log(&quot;Bem-vindo ao sistema matematico&quot;)
+
+let valor_inicial = Number(prompt(&quot;Qual o valor inicial? &quot;))
+console.log(&quot;os valores adjacentes do seu numero são&quot;)
+valor_inicial --
+console.log(valor_inicial)
+valor_inicial ++
+console.log(valor_inicial)
+valor_inicial ++
+console.log(valor_inicial)
+valor_inicial --
+
+console.log(&quot;seu valor dividido e mutiplicado por 2 é&quot;)
+valor_inicial /= 2
+console.log(valor_inicial)
+valor_inicial *= 4
+console.log(valor_inicial)
+valor_inicial /= 2
+
+let valor_secundario = Number(prompt(&quot;Me de um segundo valor &quot;))
+console.log(&quot;true significa verdadeiro e false significa falso&quot;)
+console.log(&quot;os dois valores são iguais?&quot;)
+let igual = valor_inicial==valor_secundario
+console.log(igual)
+console.log(&quot;os dois valores são diferentes?&quot;)
+let diferente = valor_inicial!=valor_secundario
+console.log(diferente)
+
+console.log(&quot;o primeiro é maior?&quot;)
+let pmaior = valor_inicial&gt;valor_secundario
+console.log(pmaior)
+console.log(&quot;o segundo é maior?&quot;)
+let smaior = valor_inicial&lt;valor_secundario
+console.log(smaior)
+
+console.log(&quot;agora vamos somar e subtrair seus numeros&quot;)
+console.log(&quot;o primeiro e o segundo numero + 10 são&quot;)
+valor_inicial += 10
+console.log(valor_inicial)
+valor_inicial -= 10
+valor_secundario += 10
+console.log(valor_secundario)
+valor_secundario -=10
+console.log(&quot;o primeiro e o segundo numero - 10 são&quot;)
+valor_inicial -= 10
+console.log(valor_inicial)
+valor_inicial += 10
+valor_secundario -= 10
+console.log(valor_secundario)
+valor_secundario +=10
+
+console.log(&quot;agora vamos testar uma nova coisa&quot;)
+let valor3 = Number(prompt(&quot;Me de um novo valor &quot;))
+console.log(&quot;se dividirmos esse valor por 2 ele vai ser maior que o primeiro?&quot;)
+valor3 /= 2
+console.log(&quot;valor após a divisão&quot;,valor3)
+console.log(&quot;o novo valor é maior ou igual ao primeiro?&quot;)
+
+let maior_igual = valor3 &gt;= valor_inicial
+console.log(maior_igual)
+console.log(&quot;o novo valor é menor ou igual que o primeiro?&quot;)
+let menor_igual = valor3 &lt;= valor_inicial
+console.log(menor_igual)
+
+console.log(&quot;agora vamos fazer uma situação problema&quot;)
+console.log(&quot;digamos que você foi ao mercado e comprou chocolates de 500g&quot;)
+let qnt_chocolates = Number(prompt(&quot;Quantos chocolates você comprou? &quot;))
+let vl_chocolates = Number(prompt(&quot;E qual o valor de um chocolate &quot;))
+let soma = vl_chocolates + vl_chocolates
+console.log(&quot;dois chocolates custariam&quot;,soma, &quot;reais&quot;)
+let total = vl_chocolates * qnt_chocolates
+console.log(&quot;o total da sua compra deu&quot;,total, &quot;reais&quot;)
+let g100 = vl_chocolates / 5
+console.log(&quot;se vc comprar só a quinta parte do chocolate seria&quot;,g100, &quot;reais&quot;)
+let desconto = total - 10
+console.log(&quot;o valor final descontando os 10 reais de desconto ficou&quot;,desconto,
+&quot;reais&quot;)
+
+console.log(&quot;o valor total é igual ao valor final&quot;)
+let total_final = total === desconto
+console.log(total_final)
+console.log(&quot;o valor total é diferente do valor final&quot;)
+let final_total = total !== desconto
+console.log(final_total)
