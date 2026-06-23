@@ -1,0 +1,122 @@
+let nome = prompt(&quot;Nome:&quot;);
+let sobrenome = prompt(&quot;Sobrenome:&quot;);
+let idade = prompt(&quot;Idade:&quot;);
+let dataNascimento = prompt(&quot;Data de nascimento:&quot;);
+let cpf = prompt(&quot;CPF:&quot;);
+let rg = prompt(&quot;RG:&quot;);
+let nacionalidade = prompt(&quot;Nacionalidade:&quot;);
+
+let rua = prompt(&quot;Rua:&quot;);
+let numero = prompt(&quot;Número:&quot;);
+let bairro = prompt(&quot;Bairro:&quot;);
+let cidade = prompt(&quot;Cidade:&quot;);
+let estado = prompt(&quot;Estado:&quot;);
+let cep = prompt(&quot;CEP:&quot;);
+let pais = prompt(&quot;País:&quot;);
+
+let telefone1 = prompt(&quot;Telefone principal:&quot;);
+let telefone2 = prompt(&quot;Telefone secundário:&quot;);
+let emailPessoal = prompt(&quot;Email pessoal:&quot;);
+let emailProfissional = prompt(&quot;Email profissional:&quot;);
+let instagram = prompt(&quot;Instagram:&quot;);
+let linkedin = prompt(&quot;LinkedIn:&quot;);
+
+let profissao = prompt(&quot;Profissão:&quot;);
+let empresa = prompt(&quot;Empresa atual:&quot;);
+let cargo = prompt(&quot;Cargo:&quot;);
+let experiencia = prompt(&quot;Tempo de experiência:&quot;);
+let salario = prompt(&quot;Salário atual:&quot;);
+let areaAtuacao = prompt(&quot;Área de atuação:&quot;);
+
+let escolaridade = prompt(&quot;Escolaridade:&quot;);
+let curso = prompt(&quot;Curso:&quot;);
+let instituicao = prompt(&quot;Instituição:&quot;);
+let anoInicio = prompt(&quot;Ano de início:&quot;);
+let anoConclusao = prompt(&quot;Ano de conclusão:&quot;);
+let cursoExtra = prompt(&quot;Curso adicional:&quot;);
+
+let linguagem = prompt(&quot;Linguagem favorita:&quot;);
+let editor = prompt(&quot;Editor de código:&quot;);
+let sistema = prompt(&quot;Sistema operacional:&quot;);
+let horasEstudo = prompt(&quot;Horas de estudo por dia:&quot;);
+let areaTech = prompt(&quot;Área da tecnologia favorita:&quot;);
+
+let comida = prompt(&quot;Comida favorita:&quot;);
+let filme = prompt(&quot;Filme favorito:&quot;);
+let serie = prompt(&quot;Série favorita:&quot;);
+let musica = prompt(&quot;Música favorita:&quot;);
+let cor = prompt(&quot;Cor favorita:&quot;);
+let hobby = prompt(&quot;Hobby:&quot;);
+
+let sonho = prompt(&quot;Profissão dos sonhos:&quot;);
+let empresaSonho = prompt(&quot;Empresa dos sonhos:&quot;);
+let salarioDesejado = prompt(&quot;Salário desejado:&quot;);
+let cidadeSonho = prompt(&quot;Cidade onde quer morar:&quot;);
+let paisVisitar = prompt(&quot;País que quer visitar:&quot;);
+
+console.log(&quot;===== RELATÓRIO DO USUÁRIO =====&quot;);
+
+console.log(&quot;\n--- Dados Pessoais ---&quot;);
+console.log(`Nome: ${nome} ${sobrenome}`);
+console.log(`Idade: ${idade}`);
+console.log(`Nascimento: ${dataNascimento}`);
+console.log(`CPF: ${cpf}`);
+console.log(`RG: ${rg}`);
+console.log(`Nacionalidade: ${nacionalidade}`);
+
+console.log(&quot;\n--- Endereço ---&quot;);
+console.log(`Rua: ${rua}, Nº ${numero}`);
+console.log(`Bairro: ${bairro}`);
+console.log(`Cidade: ${cidade} - ${estado}`);
+console.log(`CEP: ${cep}`);
+console.log(`País: ${pais}`);
+
+console.log(&quot;\n--- Contato ---&quot;);
+console.log(`Telefone 1: ${telefone1}`);
+console.log(`Telefone 2: ${telefone2}`);
+console.log(`Email pessoal: ${emailPessoal}`);
+console.log(`Email profissional: ${emailProfissional}`);
+console.log(`Instagram: ${instagram}`);
+console.log(`LinkedIn: ${linkedin}`);
+
+console.log(&quot;\n--- Profissional ---&quot;);
+console.log(`Profissão: ${profissao}`);
+console.log(`Empresa: ${empresa}`);
+console.log(`Cargo: ${cargo}`);
+console.log(`Experiência: ${experiencia}`);
+console.log(`Salário: ${salario}`);
+
+console.log(`Área: ${areaAtuacao}`);
+
+console.log(&quot;\n--- Formação ---&quot;);
+console.log(`Escolaridade: ${escolaridade}`);
+console.log(`Curso: ${curso}`);
+console.log(`Instituição: ${instituicao}`);
+console.log(`Início: ${anoInicio}`);
+console.log(`Conclusão: ${anoConclusao}`);
+console.log(`Curso extra: ${cursoExtra}`);
+
+console.log(&quot;\n--- Tecnologia ---&quot;);
+console.log(`Linguagem: ${linguagem}`);
+console.log(`Editor: ${editor}`);
+console.log(`Sistema: ${sistema}`);
+console.log(`Horas/dia: ${horasEstudo}`);
+console.log(`Área favorita: ${areaTech}`);
+
+console.log(&quot;\n--- Preferências ---&quot;);
+console.log(`Comida: ${comida}`);
+console.log(`Filme: ${filme}`);
+console.log(`Série: ${serie}`);
+console.log(`Música: ${musica}`);
+console.log(`Cor: ${cor}`);
+console.log(`Hobby: ${hobby}`);
+
+console.log(&quot;\n--- Objetivos ---&quot;);
+console.log(`Profissão dos sonhos: ${sonho}`);
+console.log(`Empresa dos sonhos: ${empresaSonho}`);
+console.log(`Salário desejado: ${salarioDesejado}`);
+
+console.log(`Cidade desejada: ${cidadeSonho}`);
+console.log(`País para visitar: ${paisVisitar}`);
+
+console.log(&quot;\n===== FIM DO RELATÓRIO =====&quot;);
