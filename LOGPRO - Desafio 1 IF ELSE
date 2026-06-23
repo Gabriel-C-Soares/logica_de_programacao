@@ -1,0 +1,294 @@
+/*let pontos = 0
+
+// 1
+let p1 = prompt(&quot;1) Como comentar uma linha?\nA) // \nB) ## \nC) &lt;!-- \nD)
+**\nResposta: &quot;)
+if (p1 === &quot;A&quot; || p1 === &quot;a&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+// 2
+let p2 = prompt(&quot;2) Como criar variável?\nA) int \nB) var \nC) let \nD)
+new\nResposta:&quot;)
+if (p2 === &quot;B&quot; || p2 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+// 3
+let p3 = prompt(&quot;3) Igualdade em comparação?\nA) = \nB) === \nC) == \nD)
+:\nResposta:&quot;)
+if (p3 === &quot;C&quot; || p3 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+
+}
+
+// 4
+let p4 = prompt(&quot;4) Estrutura de decisão?\nA) for \nB) while \nC) if \nD)
+loop\nResposta:&quot;)
+if (p4 === &quot;C&quot; || p4 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+// 5
+let p5 = prompt(&quot;5) alert() faz?\nA) Calcula \nB) Mostra mensagem \nC) Cria
+variável \nD) Fecha programa\nResposta:&quot;)
+if (p5 === &quot;B&quot; || p5 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+// 6
+let p6 = prompt(&quot;6) prompt() serve para?\nA) Receber dado \nB) Mostrar
+imagem \nC) Somar \nD) Apagar\nResposta:&quot;)
+if (p6 === &quot;A&quot; || p6 === &quot;a&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+
+}
+
+// 7
+let p7 = prompt(&quot;7) 3 + 3 = ?\nA) 5 \nB) 6 \nC) 7 \nD) 33\nResposta:&quot;)
+if (p7 === &quot;B&quot; || p7 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+// 8
+let p8 = prompt(&quot;8) true significa?\nA) número \nB) falso \nC) verdadeiro \nD)
+texto\nResposta:&quot;)
+if (p8 === &quot;C&quot; || p8 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++;
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+// 9
+let p9 = prompt(&quot;9) false significa?\nA) verdadeiro \nB) falso \nC) número \nD)
+objeto\nResposta:&quot;)
+if (p9 === &quot;B&quot; || p9 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+// 10
+let p10 = prompt(&quot;10) if serve para?\nA) repetir \nB) decidir \nC) imprimir \nD)
+parar\nResposta:&quot;)
+if (p10 === &quot;B&quot; || p10 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+console.log(&quot;Pontuação final: &quot; + pontos)*/
+
+/*let pontos = 0
+
+let p1 = prompt(&quot;1) Capital do Brasil?\nA) Rio \nB) Brasília \nC) SP \nD)
+Salvador\nResposta:&quot;)
+if (p1 === &quot;B&quot; || p1 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p2 = prompt(&quot;2) Continentes?\nA) 5 \nB) 6 \nC) 7 \nD) 8\nResposta:&quot;)
+if (p2 === &quot;C&quot; || p2 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+
+console.log(&quot;Errado!&quot;)
+}
+
+let p3 = prompt(&quot;3) Maior planeta?\nA) Marte \nB) Terra \nC) Vênus \nD)
+Júpiter\nResposta:&quot;)
+if (p3 === &quot;D&quot; || p3 === &quot;d&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p4 = prompt(&quot;4) Água ferve?\nA) 50°C \nB) 0°C \nC) 100°C \nD)
+200°C\nResposta:&quot;)
+if (p4 === &quot;C&quot; || p4 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p5 = prompt(&quot;5) Cor do céu?\nA) Verde \nB) Azul \nC) Vermelho \nD)
+Amarelo\nResposta:&quot;)
+if (p5 === &quot;B&quot; || p5 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p6 = prompt(&quot;6) Animal que mia?\nA) Cachorro \nB) Cavalo \nC) Gato \nD)
+Vaca\nResposta:&quot;)
+if (p6 === &quot;C&quot; || p6 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p7 = prompt(&quot;7) 6x6?\nA) 12 \nB) 30 \nC) 36 \nD) 42\nResposta:&quot;)
+if (p7 === &quot;C&quot; || p7 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p8 = prompt(&quot;8) Sol é?\nA) Lua \nB) Planeta \nC) Estrela \nD)
+Rocha\nResposta:&quot;)
+if (p8 === &quot;C&quot; || p8 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p9 = prompt(&quot;9) Descobrimento do Brasil?\nA) Cabral \nB) Colombo \nC)
+Dom Pedro \nD) Vargas\nResposta:&quot;)
+if (p9 === &quot;A&quot; || p9 === &quot;a&quot;) {
+console.log(&quot;Certo!&quot;)
+
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p10 = prompt(&quot;10) Maior oceano?\nA) Atlântico \nB) Índico \nC) Ártico \nD)
+Pacífico\nResposta:&quot;)
+if (p10 === &quot;D&quot; || p10 === &quot;d&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+console.log(&quot;Pontuação final: &quot; + pontos)*/
+
+/*let pontos = 0
+
+let p1 = prompt(&quot;1) Jogadores por time?\nA) 9 \nB) 10 \nC) 11 \nD)
+12\nResposta:&quot;)
+if (p1 === &quot;C&quot; || p1 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p2 = prompt(&quot;2) Copa 2002?\nA) Alemanha \nB) Brasil \nC) Itália \nD)
+França\nResposta:&quot;)
+if (p2 === &quot;B&quot; || p2 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p3 = prompt(&quot;3) Pelé é?\nA) Argentina \nB) Brasil \nC) Espanha \nD)
+Itália\nResposta:&quot;)
+if (p3 === &quot;B&quot; || p3 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p4 = prompt(&quot;4) Tempo de jogo?\nA) 60 \nB) 80 \nC) 90 \nD)
+100\nResposta:&quot;)
+if (p4 === &quot;C&quot; || p4 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p5 = prompt(&quot;5) Goleiro usa?\nA) Boné \nB) Luvas \nC) Óculos \nD)
+Faixa\nResposta:&quot;)
+if (p5 === &quot;B&quot; || p5 === &quot;b&quot;) {
+
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p6 = prompt(&quot;6) Vermelho?\nA) Aviso \nB) Gol \nC) Falta leve \nD)
+Expulsão\nResposta:&quot;)
+if (p6 === &quot;D&quot; || p6 === &quot;d&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p7 = prompt(&quot;7) Copa acontece?\nA) 2 anos \nB) 3 anos \nC) 4 anos \nD) 5
+anos\nResposta:&quot;)
+if (p7 === &quot;C&quot; || p7 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p8 = prompt(&quot;8) Neymar é?\nA) Brasil \nB) França \nC) Espanha \nD)
+Portugal\nResposta:&quot;)
+if (p8 === &quot;A&quot; || p8 === &quot;a&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+
+console.log(&quot;Errado!&quot;)
+}
+
+let p9 = prompt(&quot;9) Gol fica?\nA) Meio \nB) Laterais \nC) Fundo \nD)
+Fora\nResposta:&quot;)
+if (p9 === &quot;C&quot; || p9 === &quot;c&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p10 = prompt(&quot;10) Pênalti?\nA) Escanteio \nB) Falta na área \nC) Lateral
+\nD) Gol contra\nResposta:&quot;)
+if (p10 === &quot;B&quot; || p10 === &quot;b&quot;) {
+console.log(&quot;Certo!&quot;)
+pontos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+console.log(&quot;Pontuação final: &quot; + pontos)*/
