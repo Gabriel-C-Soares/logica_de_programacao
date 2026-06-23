@@ -1,0 +1,103 @@
+//function bom_dia(){
+// console.log(&#39;Bom dia!&#39;)
+//}
+//bom_dia()
+
+//let num1 = 10
+//let num2 = 20
+
+//function soma(){
+// soma = (num1+num2)
+// console.log(soma)
+//}
+//soma()
+
+let num1 = Number(prompt(&#39;Escolha um número: &#39;))
+let num2 = Number(prompt(&#39;Escolha outro: &#39;))
+
+let ope = prompt(&#39;Qual o operador matematico:
+soma/subtração/mutiplicação/divisão &#39;)
+
+function mais(){
+console.log(num1+num2)
+}
+
+function menos(){
+console.log(num1-num2)
+}
+
+function vezes(){
+
+console.log(num1*num2)
+}
+
+function divi(){
+console.log(num1/num2)
+}
+
+switch (ope){
+case &quot;soma&quot;:
+mais()
+break
+
+case &quot;subtração&quot;:
+menos()
+break
+
+case &quot;mutiplicação&quot;:
+vezes()
+break
+
+case &quot;divisão&quot;:
+divi()
+break
+
+default:
+console.log(&#39;Operação invalida&#39;)
+}
+function soma(a,b){
+return a+b
+
+}
+console.log(soma(50,80))
+
+
+
+/////////////////////////////////////////////
+
+
+let categoria
+const nome = &quot;Fernanda&quot;
+idade = 27
+if (idade &gt;= 60){
+categoria = &quot;Idosa&quot;
+} else if (idade &gt; 18 &amp;&amp; idade &lt; 60){
+categoria = &quot;Adulta&quot;
+} else if (idade &gt; 12 &amp;&amp; idade &lt; 18){
+categoria = &quot;adolescente&quot;
+} else {
+categoria = &quot;criança&quot;
+}
+console.log(&quot;Idade final&quot;,idade)
+console.log(&quot;Categoria: &quot; + categoria)
+
+idade = 25
+if (idade &lt; 16){
+console.log(&quot;Não vota.&quot;)
+} else if(idade &gt;= 16 &amp;&amp; idade &lt; 18){
+console.log(&quot;Voto facultativo&quot;)
+} else if (idade &gt;= 18 &amp;&amp; idade &lt; 70){
+console.log(&quot;Voto obrigatório&quot;)
+} else {
+console.log(&quot;Voto facultativo&quot;)
+}
+
+let numero = Number(prompt(&quot;Escolha um número: &quot;))
+if (numero &gt; 0){
+console.log(&quot;positivo&quot;)
+
+} else if (numero &lt; 0) {
+console.log(&quot;negativo&quot;)
+} else{
+console.log(&quot;Zero&quot;)
+}
