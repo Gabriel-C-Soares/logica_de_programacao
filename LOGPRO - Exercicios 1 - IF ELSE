@@ -1,0 +1,62 @@
+//let nome = prompt (&quot;digite seu nome: &quot;)
+//console.log (&quot; seja bem-vindo&quot;, nome )
+//let idade = Number (prompt(&quot;qual a sua idade: &quot;))
+//if ( idade &gt; 17 ){
+// console.log (&quot; vc é maior de idade&quot;)
+//}else if (idade &lt; 18 ){
+// console.log (&quot; vc é menor de idade&quot;)}
+
+//let num1 = Number (prompt(&quot;digite um numero: &quot;))
+//let num2 = Number (prompt(&quot;digite um numero novamente: &quot;))
+//if ( num1 &gt; num2 ){
+// console.log (&quot; o numero 1 é o maior&quot;)
+//} else if ( num2 &gt;num1){
+// console.log (&quot;o numero 2 é o maior&quot;)
+//}else {
+// console.log (&quot; ambos são iguais&quot;)
+//}
+
+//let idade = prompt(&quot; qual a sua idade? &quot;)
+//let cnh = prompt (&quot; vc tem ablitação? &quot;)
+//if (idade &gt;= 18 &amp;&amp; &quot;temCNH&quot;){
+// console.log (&quot;vc tem carteira de motorista&quot;)
+//}else {
+// console.log (&quot; vc é um mentiroso, e n tem carteira de motorista&quot;)
+
+//}
+
+//let usuario = prompt (&quot; digite o seu usuario: &quot;)
+//let senha = prompt(&quot; degite uma senha: &quot;)
+//if (usuario === &quot;Gabriel&quot; &amp;&amp; senha === &quot;1234&quot;){
+// console.log (&quot; login efetuado��&quot;)}
+//else if (usuario === &quot;Gabriel&quot; &amp;&amp; senha !== &quot;1234&quot;){
+// console.log (&quot; sanha incoreta��&quot;)}
+//else if (usuario !== &quot;Gabriel&quot; &amp;&amp; senha === &quot;1234&quot;){
+// console.log (&quot; usuario incoreto��&quot;)
+//} else {
+// console.log (&quot; login incoreto��&quot;)
+//}
+
+//let num = Number(prompt(&quot;Digite um número para ver a tabuada: &quot;))
+
+//let numx1 = num*1
+//console.log(num,&quot; x 1 =&quot;,numx1)
+//let numx2 = num*2
+//console.log(num,&quot; x 2 =&quot;,numx2)
+//let numx3 = num*3
+//console.log(num,&quot; x 3 =&quot;,numx3)
+//let numx4 = num*4
+
+//console.log(num,&quot; x 4 =&quot;,numx4)
+//let numx5 = num*5
+//console.log(num,&quot; x 5 =&quot;,numx5)
+//let numx6 = num*6
+//console.log(num,&quot; x 6 =&quot;,numx6)
+//let numx7 = num*7
+//console.log(num,&quot; x 7 =&quot;,numx7)
+//let numx8 = num*8
+//console.log(num,&quot; x 8 =&quot;,numx8)
+//let numx9 = num*9
+//console.log(num,&quot; x 9 =&quot;,numx9)
+//let numx10 = num*10
+//console.log(num,&quot; x 10 =&quot;,numx10)
