@@ -1,0 +1,20 @@
+//let login
+function verificarLogin(email, senha) {
+let emailCorreto = "gabriel@gmail.com";
+let senhaCorreta = "123456";
+if (email === emailCorreto && senha === senhaCorreta) {
+return true;
+} else {
+return false;
+}
+}
+function login() {
+let email = prompt("Digite seu e-mail:");
+let senha = prompt("Digite sua senha:");
+if (verificarLogin(email, senha)) {
+alert("Entrou no sistema com sucesso!");
+} else {
+alert("E-mail ou senha incorretos!");
+}
+}
+login();
