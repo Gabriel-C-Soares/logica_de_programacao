@@ -1,0 +1,80 @@
+function login() {
+let email = prompt("Digite seu e-mail:");
+let senha = prompt("Digite sua senha:");
+switch (email) {
+case "gabriela@gmail.com":
+if (senha == "123") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "bruna@gmail.com":
+if (senha == "456") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "moises@gmail.com":
+if (senha == "789") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "miguel@gmail.com":
+if (senha == "101") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "isabelly@gmail.com":
+if (senha == "102") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "lucas@gmail.com":
+
+if (senha == "103") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "breno@gmail.com":
+if (senha == "104") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "matheus@gmail.com":
+if (senha == "105") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "rafael@gmail.com":
+if (senha == "106") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+case "murilo@gmail.com":
+if (senha == "107") {
+alert("Acesso liberado!");
+} else {
+alert("Senha incorreta!");
+}
+break;
+default:
+alert("E-mail não cadastrado!");
+}
+}
+login();
