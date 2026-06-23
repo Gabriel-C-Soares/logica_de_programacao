@@ -1,0 +1,192 @@
+let acertos = 0;
+let erros = 0;
+
+// Pergunta 1
+console.log(&quot;1) Quem ganhou a Copa do Mundo de 2002?&quot;);
+console.log(&quot;A) Alemanha\nB) Brasil\nC) França\nD) Itália&quot;);
+let p1 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p1) {
+case &quot;B&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;C&quot;:
+case &quot;D&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 2
+console.log(&quot;\n2) Quem é conhecido como &#39;Rei do Futebol&#39;?&quot;);
+console.log(&quot;A) Messi\nB) Cristiano Ronaldo\nC) Pelé\nD) Neymar&quot;);
+let p2 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p2) {
+case &quot;C&quot;:
+acertos++;
+
+break;
+case &quot;A&quot;:
+case &quot;B&quot;:
+case &quot;D&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 3
+console.log(&quot;\n3) Quantos jogadores um time tem em campo?&quot;);
+console.log(&quot;A) 9\nB) 10\nC) 11\nD) 12&quot;);
+let p3 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p3) {
+case &quot;C&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;B&quot;:
+case &quot;D&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 4
+
+console.log(&quot;\n4) Qual país sediou a Copa de 2014?&quot;);
+console.log(&quot;A) Rússia\nB) Qatar\nC) Alemanha\nD) Brasil&quot;);
+let p4 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p4) {
+case &quot;D&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;B&quot;:
+case &quot;C&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 5
+console.log(&quot;\n5) Quem é o CR7?&quot;);
+console.log(&quot;A) Neymar\nB) Messi\nC) Cristiano Ronaldo\nD) Mbappé&quot;);
+let p5 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p5) {
+case &quot;C&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;B&quot;:
+case &quot;D&quot;:
+
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 6
+console.log(&quot;\n6) Qual clube é conhecido como &#39;Merengue&#39;?&quot;);
+console.log(&quot;A) Barcelona\nB) Real Madrid\nC) PSG\nD) Milan&quot;);
+let p6 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p6) {
+case &quot;B&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;C&quot;:
+case &quot;D&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 7
+console.log(&quot;\n7) Qual cartão expulsa o jogador?&quot;);
+console.log(&quot;A) Verde\nB) Azul\nC) Amarelo\nD) Vermelho&quot;);
+let p7 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p7) {
+case &quot;D&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;B&quot;:
+case &quot;C&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 8
+console.log(&quot;\n8) Quantos tempos tem uma partida?&quot;);
+console.log(&quot;A) 1\nB) 2\nC) 3\nD) 4&quot;);
+let p8 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p8) {
+case &quot;B&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;C&quot;:
+case &quot;D&quot;:
+erros++;
+break;
+default:
+erros++;
+
+}
+
+// Pergunta 9
+console.log(&quot;\n9) Quem ganhou a Copa de 2022?&quot;);
+console.log(&quot;A) França\nB) Brasil\nC) Argentina\nD) Alemanha&quot;);
+let p9 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p9) {
+case &quot;C&quot;:
+acertos++;
+break;
+case &quot;A&quot;:
+case &quot;B&quot;:
+case &quot;D&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Pergunta 10
+console.log(&quot;\n10) Qual é o estádio do Barcelona?&quot;);
+console.log(&quot;A) Bernabéu\nB) Allianz Arena\nC) Old Trafford\nD) Camp Nou&quot;);
+let p10 = prompt(&quot;Digite sua resposta (A, B, C ou D): &quot;).toUpperCase();
+
+switch (p10) {
+case &quot;D&quot;:
+acertos++;
+break;
+
+case &quot;A&quot;:
+case &quot;B&quot;:
+case &quot;C&quot;:
+erros++;
+break;
+default:
+erros++;
+}
+
+// Resultado final
+console.log(&quot;\n�� RESULTADO FINAL:&quot;);
+console.log(&quot;Acertos: &quot; + acertos);
+console.log(&quot;Erros: &quot; + erros);
